@@ -36,6 +36,12 @@ const Header = () => {
       id: 3,
       isActive: false,
     },
+    {
+      title: "Projects",
+      link: "#projects",
+      id: 4,
+      isActive: false,
+    },
   ]);
 
     

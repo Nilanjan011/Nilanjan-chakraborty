@@ -4,8 +4,8 @@ const Services = () => {
   return (
     <>
       <div className="main-container py-14">
-        <h1 className="text-5xl font-bold text-center underline">
-          My Services
+        <h1 className="text-5xl font-bold text-center underline" id="projects">
+          My Projects
         </h1>
         <div className="space-y-5 md:space-x-5 px-10 mt-12 grid grid-cols-1 gap-3 md:grid md:grid-cols-3 md:gap-2">
           <div className="cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg rounded-xl space-y-4">
