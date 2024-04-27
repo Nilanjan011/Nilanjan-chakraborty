@@ -14,7 +14,7 @@ function App() {
       <Banner />
       <About />
       <Expertise />
-      {/* <Services /> */}
+      <Services />
       <Footer />
     </>
   );

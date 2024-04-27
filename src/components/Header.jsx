@@ -1,5 +1,19 @@
 import { useState } from "react";
 
+const getBaseUrl = () => {
+  let baseUrl = window.location.protocol + "//" + window.location.hostname;
+  if (window.location.port) {
+      baseUrl += ':' + window.location.port;
+  }
+  baseUrl += "/";
+  return baseUrl;
+}
+
+export const actionButton = {
+  title: "Download CV",
+  link: getBaseUrl() + "Nilanjan-chakraborty/Nilanjan-chakraborty-web-developer.pdf",
+};
+
 const Header = () => {
   const [brandName, setBrandName] = useState("Nilanjan Chakraborty");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,19 +38,7 @@ const Header = () => {
     },
   ]);
 
-  const getBaseUrl = () => {
-    let baseUrl = window.location.protocol + "//" + window.location.hostname;
-    if (window.location.port) {
-        baseUrl += ':' + window.location.port;
-    }
-    baseUrl += "/";
-    return baseUrl;
-  }
-
-  const actionButton = {
-    title: "Download CV",
-    link: getBaseUrl() + "Nilanjan-chakraborty/Nilanjan-chakraborty-web developer.pdf",
-  };
+    
 
   const activeMenu = (id) => {
     // Create a copy of the menuLinks array

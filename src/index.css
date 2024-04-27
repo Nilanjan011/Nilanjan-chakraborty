@@ -12,3 +12,7 @@ html {
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.services_download_btn {
+    @apply  px-3 py-2 bg-orange-500 text-white text-2xl rounded-full shadow-lg
+}
