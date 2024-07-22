@@ -14,9 +14,9 @@ const Services = () => {
             <p>
               Contributed to the development of key functionalities including order processing, seamless 'Add to Cart' feature, and robust payment systems to enhance user experience and drive sales.
             </p>
-            <button onClick={() => window.open(actionButton.link, '_blank')} className="services_download_btn">
+            {/*<button onClick={() => window.open(actionButton.link, '_blank')} className="services_download_btn">
               Download CV
-            </button>
+            </button>*/}
           </div>
           <div className="cursor-pointer hover:bg-gray-100 space-y-3  bg-slate-100 p-5 text-center shadow-lg rounded-xl">
             <i className=" text-5xl fa-solid fa-mobile"></i>
@@ -24,9 +24,9 @@ const Services = () => {
             <p>
               Implemented tailored solutions in a CRM project, focusing on streamlining customer interactions, optimizing data management, and enhancing team collaboration for improved client relationships.
             </p>
-            <button onClick={()=> window.open(actionButton.link, '_blank')} className="services_download_btn">
+            {/*<button onClick={()=> window.open(actionButton.link, '_blank')} className="services_download_btn">
               Download CV
-            </button>
+            </button>*/}
           </div>
           <div onClick={()=> window.open(actionButton.link, '_blank')} className="cursor-pointer hover:bg-gray-100 space-y-3 bg-slate-100 p-5 text-center shadow-lg rounded-xl">
             <i className=" text-5xl fa-solid fa-server"></i>
@@ -34,9 +34,9 @@ const Services = () => {
             <p>
               Crafted engaging user experiences in an E-learning game project, leveraging innovative drag-and-drop functionality to foster interactive learning environments and enhance student engagement.
             </p>
-            <button onClick={() => window.open(actionButton.link, '_blank')} className="services_download_btn">
+            {/*<button onClick={() => window.open(actionButton.link, '_blank')} className="services_download_btn">
               Download CV
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>

@@ -72,7 +72,7 @@ const Header = () => {
             <span className=" text-sm self-center md:text-2xl font-semibold whitespace-nowrap ">Nilanjan Chakraborty</span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" className="text-white bg-orange-500 shadow rounded-full px-4 py-2" onClick={()=> window.open(actionButton.link, '_blank')}>{actionButton.title}</button>
+            {/*<button type="button" className="text-white bg-orange-500 shadow rounded-full px-4 py-2" onClick={()=> window.open(actionButton.link, '_blank')}>{actionButton.title}</button> */}
             <button type="button" className="inline-flex items-center p-2 w-10 h-10 text-orange-600 justify-center text-sm text-orrange-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-200 dark:text-orange-400 dark:hover:bg-orange-700 dark:focus:ring-orange-600" onClick={toggleMobileMenu}>
               <span className="sr-only">Open main menu</span>
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
